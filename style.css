@@ -1,0 +1,55 @@
+.row{
+    display: flex;
+    direction: row;
+    background-color: black;
+    
+}
+.main{
+    margin: auto;
+    width: 30%;
+}
+button{
+    width: 34%;
+    height: 10vh;
+    margin: 2px;
+    background-color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+button:hover{
+    border: 2px solid none ;
+    cursor: pointer;
+    background-color: rgb(255, 204, 128);
+}
+#root{
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center ;
+}
+.hide{
+    position: absolute;
+    visibility: hidden;
+}
+.mar{
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    margin: 5px ;
+    width: 50%;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    height: 5vh;
+    border-radius: 20px;
+    
+}
+#reset:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+#win{
+    font-weight: bolder;
+    font-size: larger;
+}
